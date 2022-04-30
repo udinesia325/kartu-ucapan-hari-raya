@@ -16,6 +16,10 @@ body {
     #43919b
   );
   font-family: var(--font-poppins);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro{
@@ -42,4 +46,3 @@ body {
   background-image: url(bedug.png);
   background-size: cover;
 }
-
