@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins&family=Secular+One&display=swap');
+:root{
+  --font-writing:'Berkshire Swash', cursive;
+  --font-poppins:'Poppins', sans-serif;
+  --white:#F3F9FB;
+}
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to left top,
+    #247881,
+    #2c7e87,
+    #34848e,
+    #3c8b94,
+    #43919b
+  );
+  font-family: var(--font-poppins);
+}
+
+.intro{
+  color: var(--white);
+}
+.quote{
+  font-family: var(--font-writing);
+  color:var(--white) ;
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  background-image: url(bedug.png);
+  background-size: cover;
+}
+
