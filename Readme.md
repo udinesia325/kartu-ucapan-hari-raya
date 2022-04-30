@@ -13,7 +13,7 @@ maka di dalam halaman web akan muncul nama Fahruddin
 ```
 Silahkan Mencoba!!!!
 
-#Instalasi
+# Instalasi
 - clone repo ini
 - masuk ke dalam folder
 - install dependency yang di perlukan dengan mengetikkan
